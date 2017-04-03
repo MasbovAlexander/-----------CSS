@@ -1,0 +1,540 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    max-width: 960px;
+    margin: 0 auto;
+    font-family: 'Baloo Bhaina', cursive;
+
+    
+}
+
+header {
+    margin-top: 40px;
+    border-bottom: 2px solid #ec3618
+}
+
+.search:after {
+    content: "";
+    clear: both;
+    display: table
+}
+
+.search form {
+    
+    position: relative;
+    margin: 0 auto;
+    width: auto;
+    float: right;
+    bottom: 50px;
+}
+
+.search input {
+    
+    width: 240px;
+    height: 42px;
+    padding-left: 20px;
+    border: 1px solid #000000;
+    outline: none;
+    position: relative;
+}
+
+.search button {
+    cursor: pointer;
+    width: 42px;
+    height: 40px;
+    background: none;
+    border: none;
+    outline: none;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.search button:before {
+    content: "\f002";
+    font-family: FontAwesome;
+    color: #000000;
+}
+
+.main-content{
+    margin-top: 20px;
+    
+}
+
+
+
+
+
+
+.menu {
+    text-align: justify;
+    overflow: hidden;
+    height: 35px;
+    border-bottom: 1px solid #565656;
+    
+}
+.menu li {
+    display: inline;
+    
+}
+.menu li a {
+    display: inline-block;
+    text-decoration: none;
+    font-family: 'Droid Sans', sans-serif;
+    font-size: 16px;
+    color: black;
+}
+
+
+
+
+
+.touch-menu{
+        
+    display: none;
+        
+    }
+
+
+.burger{
+    width: 50px;
+    height: 50px;
+    display: none;
+
+    
+}
+
+.burger>div{
+    height: 8px;
+    margin-bottom: 8px;
+    background-color: rgba(234, 0, 0, 0.54);
+
+}
+
+
+
+.menu:after {
+    content: "1";
+    margin-left: 100%;
+    display: inline-block;
+}
+
+.first_word{
+    color: #ec3618;
+}
+
+.second_word{
+    color: #912210;
+
+}
+
+
+
+.section_content{
+    margin-top: 40px;
+    text-align: center;
+}
+
+.header_top{
+    font-size: 32px;
+}
+
+.header_top_second{
+    margin-top: 15px;
+    font-size: 20px;
+
+
+}
+
+
+.main_foto{
+    text-align: center;
+
+}
+
+
+.foto{
+    max-width: 100%;
+    height: auto;
+    margin-top: 40px;
+    border-radius: 15px;
+    box-shadow: -12px 12px 20px -10px #000000;
+}
+
+
+.main_text{
+    margin-top: 40px;
+    
+}
+
+
+.caption{
+    text-align: center;
+    font-size: 16px;
+}
+
+.paragraph{
+    margin-top: 20px;
+    margin-left: 180px;
+    margin-right: 180px;
+    margin-bottom: 27px;
+    font-family: 'Ranga', cursive;
+    font-size: 14px;
+      
+}
+
+.section_stayintouch{
+    text-align: center;
+    margin-top: 80px;   
+}
+
+.header_bottom{
+    font-size: 32px;
+
+}
+
+.caption1{
+    text-align: center;
+    font-size: 16px;
+    margin-top: 35px;
+    
+}
+
+.paragraph1{
+    font-family: 'Ranga', cursive;
+    font-size: 14px;
+    margin-top: 18px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.formall{
+    
+    text-align: center;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.section_call-back{
+    
+    width: 300px;
+	height: 100%;
+	border: 1px solid #676767;
+    margin: 0 auto;
+	margin-top: 25px;
+    padding: 20px 60px ;
+    font-size: 16px;
+
+}
+
+
+
+
+
+
+.words{
+    margin-top: 10px;
+    margin-bottom: 26px;
+     border: none;
+    outline:none;
+    height: 25px;
+    border-bottom: 1px solid #676767;
+    font-family: 'Baloo Bhaina', cursive;
+    font-size: 13px;
+    color: #565656
+}
+
+
+
+
+
+
+.clean{
+    font-family: 'Baloo Bhaina', cursive;
+    border: none;
+    outline:none;
+    background-color: white;
+    cursor: pointer
+
+
+}
+
+
+
+.sent{
+    font-family: 'Baloo Bhaina', cursive;
+    border: none;
+    outline:none;
+    float: right;
+    background-color: white;
+    cursor: pointer
+
+
+}
+
+
+.footer{
+    margin-top: 50px;
+    border-top: 1px solid #ec3618;
+
+}
+
+
+.logo_footer{
+
+    text-align: center;
+    margin-top: 22px;
+    margin-bottom: 70px;
+}
+
+
+
+
+
+
+
+
+.contacts{
+    display: inline-block;
+    width:100%;
+    padding: 0;
+    text-align: center;
+    margin-bottom: 140px;
+
+}
+
+.contacts li{
+    list-style-type: none;
+    text-decoration: none;
+    float: left;
+    width: 25%;
+}
+
+.contacts li a{
+    text-decoration: none;
+    margin-top: 15px;
+    display: block;
+    color: #ec3618;
+
+}
+
+.contacts li address{
+    
+    color: #ec3618;
+    margin-top: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 640px){
+    
+  .search form {
+    float: left;
+    margin-top: 60px
+}
+    
+    .menu>li{
+        display: none;
+        
+    }
+    
+    
+    .menu{
+        height: 200px;
+        border-bottom: none;  
+        text-align: center;
+
+     
+    }
+    
+    
+    .header__nav{
+        text-align: center;
+    }
+    
+    
+    .menu li{
+        padding-top: 10px;
+       
+    }
+    
+    .menu li a{
+        font-family: 'Baloo Bhaina', cursive;
+        font-size: 17px;
+    }
+    
+    
+    .burger {
+	    display: inline-block;
+
+    }
+    
+    
+
+  
+    .menu:hover .burger {
+        
+        display: none;
+	
+}
+    
+    .menu:hover >li {
+        display: block;
+        
+}
+    
+    
+    .paragraph{
+        margin-left: 0;
+        text-align: center;
+        margin-right: 0;
+    }
+    
+    
+    .contacts li {
+        
+    width: 100%;        
+    padding: 10px;
+    
+    
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
